@@ -1,4 +1,9 @@
-// Highest of Three Numbers (C++)
-// Description:
-// This program takes three numbers as input from the user and outputs the largest number.
-// The logic is implemented using nested if statements.
+Highest of Three Numbers (C++)
+
+
+Description:
+- This program takes three numbers as input from the user and outputs the largest number.
+- The logic is implemented using nested if statements.
+
+- Input values can be integers or floating-point numbers.
+- Program uses nested if statements to compare numbers.
