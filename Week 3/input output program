@@ -1,0 +1,29 @@
+#include <iostream>
+#include <iomanip>  
+using namespace std;
+
+int main() {
+    string itemName;
+    int quantity;
+    float cost;
+
+    // Get user input
+    cout << "Enter item name: ";
+    cin >> itemName;
+
+    cout << "Enter quantity: ";
+    cin >> quantity;
+
+    cout << "Enter cost per item: ";
+    cin >> cost;
+
+    // Calculate total
+    float totalCost = quantity * cost;
+
+    // Display result
+    cout << fixed << setprecision(2);
+    cout << "Total cost for " << quantity << " " << itemName 
+         << "(s): $" << totalCost << endl;
+
+    return 0;
+}
