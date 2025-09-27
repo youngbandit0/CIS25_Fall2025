@@ -1,7 +1,7 @@
-#include <iostream>  // Header file for input/output
+#include <iostream>  
 using namespace std;
 
-// Function to display the menu
+
 void showMenu() {
     cout << "\n=== Main Menu ===\n";
     cout << "1. Add Two Numbers\n";
@@ -10,7 +10,7 @@ void showMenu() {
     cout << "Choose an option: ";
 }
 
-// Function for Option 1: Add two numbers
+
 void addNumbers() {
     int a, b;
     cout << "Enter first number: ";
@@ -20,19 +20,19 @@ void addNumbers() {
     cout << "Sum = " << a + b << endl;
 }
 
-// Function for Option 2: View a message
+
 void viewMessage() {
     cout << "Hello! This is your message." << endl;
 }
 
-// Main function
+
 int main() {
     int option;
     do {
-        showMenu();      // Show menu
-        cin >> option;   // Get user choice
+        showMenu();      
+        cin >> option;  
 
-        // Handle menu options
+       
         if (option == 1) {
             addNumbers();
         } 
@@ -46,7 +46,7 @@ int main() {
             cout << "Invalid option. Please try again." << endl;
         }
 
-    } while (option != 3);  // Repeat until user chooses to exit
+    } while (option != 3);  
 
     return 0;
 }
