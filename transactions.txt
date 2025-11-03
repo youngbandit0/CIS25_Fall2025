@@ -1,0 +1,4 @@
+Account created for Justine | Starting balance: $100.00
+Deposit: +50.00 | Balance: $150.00
+Purchase: -25.75 (Groceries) | Balance: $124.25
+Purchase: -80.00 (Shoes) | Balance: $44.25
